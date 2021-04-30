@@ -1,4 +1,3 @@
-...
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
@@ -21,4 +20,3 @@
         python-version: ${{ matrix.python-version }}
         activate-environment: patient
         environment-file: environment.yml
-...
